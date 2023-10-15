@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Advice generator app</title>
+</head>
+<body>
+
+  <main>
+    <article class="quote">
+      <h1 class="quote__title">ADVICE # <span id="quote_id">117</span></h1>
+      <p id="quote_advice" class="quote__text quotation">It is easy to sit up and take notice, what's difficult is getting up and taking action</p>
+      <div class="quote__divider">
+        <img id = "divider-image" src="./images/pattern-divider-desktop.svg" alt="pattern-divider-img">
+      </div>
+  
+      <button onclick="generateQuote()" class="quote__button">
+        <img src="./images/icon-dice.svg" alt="">
+      </button>
+    </article>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
